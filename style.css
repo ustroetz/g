@@ -154,7 +154,7 @@ div.all-thumbs div.thumb-area:hover {
 }
 
 #content {
-    width: 500px;
+    width: 600px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -171,9 +171,8 @@ div.all-thumbs div.thumb-area:hover {
     overflow: hidden;
 }
 
-#all-news .news-image img,
-div.gallery-vertical img {
-    /*max-width: 600px;*/
+img {
+    max-width: 600px;
 }
 
 #all-news .news-image {
