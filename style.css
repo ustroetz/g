@@ -4,7 +4,8 @@ body {
     font-style: italic;
     color: #333;
 }
-.clear{
+
+.clear {
     content: ".";
     display: block;
     height: 0;
@@ -12,49 +13,61 @@ body {
     clear: both;
     visibility: hidden;
 }
-.left{
+
+.left {
     float: left;
     display: inline-block;
 }
-.right{
+
+.right {
     float: right;
     display: inline-block;
 }
-.no{
+
+.no {
     display: none !important;
 }
+
 #rounder,
-header{
+header {
     width: 990px;
     margin: auto;
 }
-header{
+
+header {
     text-align: center;
 }
-a{
+
+a {
     color: #000000;
     text-decoration: underline;
 }
-a:hover{
+
+a:hover {
     text-decoration: none;
 }
-.grey{
+
+.grey {
     color: #999999;
 }
-#rounder{
+
+#rounder {
     padding: 20px 20px 100px;
 }
-#rounder.wideRounder{
+
+#rounder.wideRounder {
     width: 100%;
     padding-right: 0;
     padding-left: 0;
 }
-#title{
+
+#title {
     padding: 50px 0 35px;
     /*font-size: 12px;*/
     font-size: 11px;
 }
-#navigation{
+
+#navigation {
     /*font-size: 13px;*/
     font-size: 11px;
     padding: 0;
@@ -62,103 +75,120 @@ a:hover{
     margin-bottom: 10px;
     list-style: none;
 }
-#navigation li{
+
+#navigation li {
     display: inline-block;
 }
-#navigation-space{
+
+#navigation-space {
     margin-bottom: 15px;
     height: 20px;
     overflow: hidden;
 }
-#navigation-space.activated{
 
-}
+#navigation-space.activated {}
+
 #title a,
 #navigation li.navigation-category,
 #navigation li a,
-.subcats li a{
+.subcats li a {
     padding: 3px 2px;
     font-style: italic;
     text-decoration: none;
     color: #000000;
     cursor: pointer;
 }
+
 #title a:hover,
 #navigation li.navigation-category:hover,
 #navigation li a:hover,
-.subcats li a:hover{
+.subcats li a:hover {
     text-decoration: underline;
 }
+
 #title {
     display: inline-block;
 }
-#navigation li span{
 
-}
-.subcats{
+#navigation li span {}
+
+.subcats {
     /*font-size: 12px;*/
     font-size: 11px;
     padding: 0;
     margin: 0;
     list-style: none;
 }
-.subcats li{
+
+.subcats li {
     display: inline-block;
 }
-.subcats li a{
 
-}
-.active-top{
+.subcats li a {}
+
+.active-top {
     text-decoration: underline !important;
 }
 
-div.all-thumbs{
+div.all-thumbs {
     margin: 0;
     padding: 0;
 }
-div.all-thumbs div.thumb-area{
-    width:300px;
+
+div.all-thumbs div.thumb-area {
+    width: 300px;
     padding: 9px;
     float: left;
 }
-div.all-thumbs div.thumb-area:hover{
+
+div.all-thumbs div.thumb-area:hover {
     opacity: 0.7;
 }
+
 #content,
-#all-news{
+#all-news {
     margin-left: auto;
     margin-right: auto;
     width: 960px;
     margin-bottom: 10px;
 }
-#content{
-    width: 600px;
+
+#content {
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
 }
-#content p{
+
+#content p {
     margin: 0;
     padding: 0;
 }
 
+
 /*news*/
-#all-news{
+
+#all-news {
     overflow: hidden;
 }
+
 #all-news .news-image img,
-div.gallery-vertical img{
+div.gallery-vertical img {
     /*max-width: 600px;*/
 }
-#all-news .news-image{
+
+#all-news .news-image {
     text-align: center;
 }
-#all-news a{
+
+#all-news a {
     text-decoration: none;
 }
-#all-news a:hover{
+
+#all-news a:hover {
     /*background: #C0A878;*/
     text-decoration: underline;
 }
+
 #all-news .news-title,
 #all-news .news-date,
 #all-news .news-content-placeholder {
@@ -166,66 +196,88 @@ div.gallery-vertical img{
     margin-left: auto;
     width: 600px;
 }
-.news-article{
+
+.news-article {
     margin-bottom: 50px;
 }
-.news-content-placeholder{
+
+.news-content-placeholder {
     margin-bottom: 9px;
 }
-.news-image{
+
+.news-image {
     margin-bottom: 10px;
 }
-.news-title{
+
+.news-title {
     /*font-size: 12px;*/
     font-size: 11px;
 }
-.news-date{
+
+.news-date {
     margin-bottom: 5px;
 }
 
+
 /*vertical gallery*/
-.gallery-vertical{
+
+.gallery-vertical {
     margin-bottom: 150px;
     text-align: center;
 }
 
+
 /*horizontal gallery*/
-#horizontal-r{
+
+#horizontal-r {
     position: absolute;
     left: 10px;
     margin-bottom: 20px;
 }
-.gallery-horizontal{
+
+.gallery-horizontal {
     vertical-align: top;
     padding-right: 5px;
 }
-#rounder #content.horizontalGallery{
+
+#rounder #content.horizontalGallery {
     margin-left: 10px;
     margin-right: 10px;
 }
 
+
 /*ordered main page*/
-#ordered-table{
+
+#ordered-table {
     width: 100%;
 }
-.ordered-col{
+
+.ordered-col {
     width: 33%;
     padding: 10px;
     vertical-align: top;
 }
-.thumb-spacer{
+
+.thumb-spacer {
     margin-bottom: 15px;
 }
 
-.gallery-vertical .image-description{
+.gallery-vertical .image-description {
     text-align: left;
 }
-.gallery-vertical .image-description p{
+
+.gallery-vertical .image-description p {
     margin: 0;
     padding: 0;
 }
-.gallery-vertical .img-wrappr{
+
+.gallery-vertical .img-wrappr {
     width: auto;
     margin: auto;
     display: inline-block;
+}
+
+.start-img-wrapper {
+    text-align: center;
+    margin: 50px auto
 }
