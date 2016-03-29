@@ -1,5 +1,5 @@
 $.ajax({
-    url: "http://ustroetz.github.io/g/images",
+    url: "images",
     success: function(data) {
         var images = new Array();
         $(data).find("a:contains(.jpg)").each(function() {
